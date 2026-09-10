@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080";
+const API_URL = "https://ticket-system-s9eh.onrender.com";
 
 function App() {
   const [page, setPage] = useState(
